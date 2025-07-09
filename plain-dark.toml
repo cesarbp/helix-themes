@@ -1,0 +1,141 @@
+# A simple theme with no syntax highlighting aside from comments and strings.
+
+"type" = "gray-light"
+"type.builtin" = "gray-light"
+"constructor" = "gray-light"
+"constant" = "gray-light"
+"constant.builtin" = "gray-light"
+"constant.builtin.boolean" = "gray-light"
+"constant.character.escape" = "gray-light"
+"constant.numeric" = "gray-light"
+"string" = "accent-blue"
+"string.regexp" = "accent-blue"
+"string.special" = "accent-blue"
+"comment" = "accent-green"
+"variable" = "gray-light"
+"variable.parameter" = "gray-light"
+"variable.builtin" = "gray-light"
+"variable.other.member" = "gray-light"
+"label" = "gray-light"
+"keyword" = "gray-light"
+"keyword.directive" = "gray-light"
+"keyword.storage.type" = "gray-light"
+"keyword.control" = "gray-light"
+"keyword.operator" = "gray-light"
+"function" = "gray-light"
+"function.builtin" = "gray-light"
+"function.method" = "gray-light"
+"function.macro" = "gray-light"
+"punctuation" = "gray-light"
+"punctuation.delimiter" = "gray-light"
+"punctuation.bracket" = "gray-light"
+"tag" = "gray-light"
+"attribute" = "gray-light"
+"namespace" = "gray-light"
+"special" = "accent-orange"
+"operator" = "gray-light"
+
+"markup.heading.marker" = "gray-light"
+"markup.heading.1" = "gray-light"
+"markup.heading.2" = "gray-light"
+"markup.heading.3" = "gray-light"
+"markup.heading.4" = "gray-light"
+"markup.heading.5" = "gray-light"
+"markup.heading.6" = "gray-light"
+"markup.list" = "gray-light"
+"markup.bold" = "gray-light"
+"markup.italic" = "gray-light"
+"markup.strikethrough" = "gray-light"
+"markup.link.url" = "gray-light"
+"markup.link.text" = "gray-light"
+"markup.raw.block" = "gray-light"
+"markup.raw.inline" = "gray-light"
+
+"ui.background" = { bg = "background" }
+"ui.text" = "gray-light"
+"ui.text.focus" = { fg = "gray-bright", bg = "background-highlight", modifiers = ["bold"] }
+"ui.text.inactive" = "gray-dim"
+"ui.text.directory" = { fg = "accent-green", modifiers = ["bold"] }
+"ui.linenr" = { fg = "gray-dim", bg = "background-subtle" }
+"ui.linenr.selected" = { fg = "gray-medium", bg = "background-active" }
+"ui.selection" = { fg = "gray-bright", bg = "background-selection" }
+"ui.selection.primary" = { fg = "gray-bright", bg = "background-active" }
+"ui.cursor" = { fg = "background", bg = "gray-main" }
+"ui.cursor.primary" = { fg = "background", bg = "accent-blue" }
+"ui.cursor.match" = { fg = "gray-bright", bg = "background-match" }
+"ui.cursorline.primary" = { bg = "background-line" }
+"ui.highlight" = { bg = "background-highlight" }
+"ui.statusline" = { fg = "gray-main", bg = "background-statusline" }
+"ui.statusline.inactive" = { fg = "gray-dim", bg = "background-statusline-inactive" }
+"ui.statusline.normal" = { fg = "accent-green", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "gray-light", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "accent-purple", modifiers = ["bold"] }
+"ui.popup" = { fg = "gray-main", bg = "background-popup" }
+"ui.window" = "gray-dim"
+"ui.help" = { fg = "gray-main", bg = "background-popup" }
+"ui.gutter" = { bg = "background-subtle" }
+"ui.menu" = { fg = "gray-main", bg = "background-popup" }
+"ui.menu.selected" = { fg = "gray-bright", bg = "background-active", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "gray-dim", bg = "background-highlight" }
+"ui.virtual" = "gray-faint"
+"ui.virtual.ruler" = { bg = "background-subtle" }
+"ui.virtual.inlay-hint" = { fg = "gray-faint", modifiers = ["italic"] }
+"ui.virtual.jump-label" = { fg = "accent-orange", modifiers = ["bold"] }
+"ui.virtual.indent-guide" = "gray-faint"
+"ui.virtual.whitespace" = "gray-faint"
+"ui.bufferline" = { fg = "gray-dim", bg = "background-subtle" }
+"ui.bufferline.active" = { fg = "gray-main", bg = "background", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "accent-red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "accent-orange", style = "curl" } }
+"diagnostic.info" = { underline = { color = "accent-green", style = "curl" } }
+"diagnostic.hint" = { fg = "gray-dim", modifiers = ["italic"] }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"error" = "accent-red"
+"warning" = "accent-orange"
+"info" = "accent-green"
+"hint" = "gray-medium"
+
+"diff.plus" = { fg = "gray-light", bg = "background-diff-add" }
+"diff.plus.gutter" = "gray-light"
+"diff.minus" = { fg = "accent-red", bg = "background-diff-remove" }
+"diff.minus.gutter" = "accent-red"
+"diff.delta" = { fg = "accent-orange", bg = "background-diff-change" }
+"diff.delta.gutter" = "accent-orange"
+
+[palette]
+background = "#1a1a1a"                   
+background-subtle = "#242424"            
+background-popup = "#2a2a2a"             
+background-statusline = "#333333"        
+background-statusline-inactive = "#2a2a2a"
+background-line = "#222222"              
+background-highlight = "#2d2d2d"         
+background-active = "#383838"            
+background-selection = "#404040"         
+background-match = "#4a4a4a"              
+gray-faint = "#4a4a4a"                   
+gray-dim = "#666666"                     
+gray-medium = "#888888"                  
+gray-main = "#b0b0b0"                    
+gray-light = "#c8c8c8"                   
+gray-bright = "#e0e0e0"                   
+background-diff-add = "#1a2a1a"          
+background-diff-remove = "#2a1a1a"       
+background-diff-change = "#2a2a1a"        
+accent-red = "#cc6666"                   
+accent-green = "#99cc99"                 
+accent-blue = "#81a2be"                  
+accent-orange = "#de935f"                
+accent-purple = "#b294bb"                 
+white = "#e0e0e0"                        
+gray = "#888888"                         
+darkgray = "#333333"                     
+black = "#1a1a1a"                        
+cursor = "#c8c8c8"                       
+selected = "#383838"                     
+red = "#cc6666"                          
+green = "#99cc99"                        
+orange = "#de935f"                        
+
