@@ -57,11 +57,11 @@
 "ui.text.inactive" = "gray-dim"
 "ui.text.directory" = { fg = "accent-green", modifiers = ["bold"] }
 "ui.linenr" = { fg = "gray-dim", bg = "background-subtle" }
-"ui.linenr.selected" = { fg = "gray-medium", bg = "background-active" }
+"ui.linenr.selected" = { fg = "gray-medium", bg = "background-line" }
 "ui.selection" = { fg = "gray-bright", bg = "background-selection" }
-"ui.selection.primary" = { fg = "gray-bright", bg = "background-active" }
-"ui.cursor" = { fg = "background", bg = "gray-main" }
-"ui.cursor.primary" = { fg = "background", bg = "accent-blue" }
+"ui.selection.primary" = { fg = "gray-dark", bg = "background-active" }
+"ui.cursor" = { fg = "background", bg = "gray-medium" }
+"ui.cursor.primary" = { fg = "background", bg = "gray-light" }
 "ui.cursor.match" = { fg = "gray-bright", bg = "background-match" }
 "ui.cursorline.primary" = { bg = "background-line" }
 "ui.highlight" = { bg = "background-highlight" }
@@ -105,37 +105,37 @@
 "diff.delta.gutter" = "accent-orange"
 
 [palette]
-background = "#1a1a1a"                   
-background-subtle = "#242424"            
-background-popup = "#2a2a2a"             
-background-statusline = "#333333"        
+background = "#1a1a1a"
+background-subtle = "#242424"
+background-popup = "#2a2a2a"
+background-statusline = "#444444"
 background-statusline-inactive = "#2a2a2a"
-background-line = "#222222"              
-background-highlight = "#2d2d2d"         
-background-active = "#383838"            
-background-selection = "#404040"         
-background-match = "#4a4a4a"              
-gray-faint = "#4a4a4a"                   
-gray-dim = "#666666"                     
-gray-medium = "#888888"                  
-gray-main = "#b0b0b0"                    
-gray-light = "#c8c8c8"                   
-gray-bright = "#e0e0e0"                   
-background-diff-add = "#1a2a1a"          
-background-diff-remove = "#2a1a1a"       
-background-diff-change = "#2a2a1a"        
-accent-red = "#cc6666"                   
-accent-green = "#99cc99"                 
-accent-blue = "#81a2be"                  
-accent-orange = "#de935f"                
-accent-purple = "#b294bb"                 
-white = "#e0e0e0"                        
-gray = "#888888"                         
-darkgray = "#333333"                     
-black = "#1a1a1a"                        
-cursor = "#c8c8c8"                       
-selected = "#383838"                     
-red = "#cc6666"                          
-green = "#99cc99"                        
-orange = "#de935f"                        
-
+background-line = "#333333"
+background-highlight = "#2d2d2d"
+background-selection = "#0074b7"
+background-active = "#60a3d9"
+background-match = "#4a4a4a"
+gray-dark = "#0f0f0f"
+gray-faint = "#4a4a4a"
+gray-dim = "#666666"
+gray-medium = "#888888"
+gray-main = "#b0b0b0"
+gray-light = "#c8c8c8"
+gray-bright = "#e0e0e0"
+background-diff-add = "#1a2a1a"
+background-diff-remove = "#2a1a1a"
+background-diff-change = "#2a2a1a"
+accent-red = "#cc6666"
+accent-green = "#99cc99"
+accent-blue = "#81a2be"
+accent-orange = "#de935f"
+accent-purple = "#b294bb"
+white = "#e0e0e0"
+gray = "#888888"
+darkgray = "#333333"
+black = "#1a1a1a"
+cursor = "#c8c8c8"
+selected = "#383838"
+red = "#cc6666"
+green = "#99cc99"
+orange = "#de935f"
