@@ -79,7 +79,7 @@
 "ui.menu.scroll" = { fg = "gray-dim", bg = "background-highlight" }
 "ui.virtual" = "gray-faint"
 "ui.virtual.ruler" = { bg = "background-subtle" }
-"ui.virtual.inlay-hint" = { fg = "gray-faint", modifiers = ["italic"] }
+"ui.virtual.inlay-hint" = { fg = "gray-light", modifiers = ["italic"] }
 "ui.virtual.jump-label" = { fg = "accent-orange", modifiers = ["bold"] }
 "ui.virtual.indent-guide" = "gray-faint"
 "ui.virtual.whitespace" = "gray-faint"
@@ -89,7 +89,7 @@
 "diagnostic.error" = { underline = { color = "accent-red", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "accent-orange", style = "curl" } }
 "diagnostic.info" = { underline = { color = "accent-green", style = "curl" } }
-"diagnostic.hint" = { fg = "gray-dim", modifiers = ["italic"] }
+"diagnostic.hint" = { fg = "gray-light", modifiers = ["italic"] }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 "error" = "accent-red"
