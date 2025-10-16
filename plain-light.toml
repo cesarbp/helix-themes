@@ -1,0 +1,138 @@
+"type" = { fg = "gray-dark", modifiers = ["bold"] }
+"type.builtin" = { fg = "gray-dark", modifiers = ["bold"] }
+"constructor" = { fg = "gray-dark", modifiers = ["bold"] }
+"constant" = "gray-medium"
+"constant.builtin" = { fg = "gray-medium", modifiers = ["italic"] }
+"constant.builtin.boolean" = { fg = "gray-medium", modifiers = ["italic"] }
+"constant.character.escape" = "gray-medium"
+"constant.numeric" = "gray-medium"
+"string" = "accent-blue"
+"string.regexp" = "accent-blue"
+"string.special" = "accent-blue"
+"comment" = { fg = "accent-green" }
+"variable" = "gray-medium"
+"variable.parameter" = { fg = "gray-medium", modifiers = ["italic"] }
+"variable.builtin" = { fg = "gray-medium", modifiers = ["italic"] }
+"variable.other.member" = "gray-medium"
+"label" = "gray-medium"
+"keyword" = { fg = "gray-medium", modifiers = ["bold"] }
+"keyword.directive" = { fg = "gray-medium", modifiers = ["bold"] }
+"keyword.storage.type" = { fg = "gray-medium", modifiers = ["bold"] }
+"keyword.control" = { fg = "gray-medium", modifiers = ["bold", "italic"] }
+"keyword.operator" = "gray-medium"
+"function" = { fg = "gray-dark", modifiers = ["bold"] }
+"function.builtin" = { fg = "gray-dark", modifiers = ["bold"] }
+"function.method" = { fg = "gray-dark", modifiers = ["bold"] }
+"function.macro" = { fg = "gray-medium", modifiers = ["bold"] }
+"punctuation" = "gray-medium"
+"punctuation.delimiter" = "gray-medium"
+"punctuation.bracket" = "gray-medium"
+"tag" = { fg = "gray-medium", modifiers = ["bold"] }
+"attribute" = { fg = "gray-medium", modifiers = ["italic"] }
+"namespace" = { fg = "gray-medium", modifiers = ["italic"] }
+"special" = "accent-orange"
+"operator" = "gray-medium"
+
+"markup.heading.marker" = { fg = "gray-medium", modifiers = ["bold"] }
+"markup.heading.1" = { fg = "gray-dark", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "gray-dark", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "gray-medium", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "gray-medium", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "gray-medium", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "gray-medium", modifiers = ["bold"] }
+"markup.list" = "gray-medium"
+"markup.bold" = { fg = "gray-medium", modifiers = ["bold"] }
+"markup.italic" = { fg = "gray-medium", modifiers = ["italic"] }
+"markup.strikethrough" = { fg = "gray-medium", modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "gray-medium", modifiers = ["underlined"] }
+"markup.link.text" = "gray-medium"
+"markup.raw.block" = "gray-medium"
+"markup.raw.inline" = "gray-medium"
+
+"ui.background" = { bg = "background" }
+"ui.text" = "gray-medium"
+"ui.text.focus" = { fg = "gray-dark", bg = "background-highlight", modifiers = ["bold"] }
+"ui.text.inactive" = "gray-dim"
+"ui.text.directory" = { fg = "accent-green", modifiers = ["bold"] }
+"ui.linenr" = { fg = "gray-dim", bg = "background-subtle" }
+"ui.linenr.selected" = { fg = "gray-main", bg = "background-line" }
+"ui.selection" = { fg = "gray-bright", bg = "background-active" }
+"ui.selection.primary" = { fg = "gray-dark", bg = "background-selection" }
+"ui.cursor" = { fg = "background", bg = "gray-main" }
+"ui.cursor.primary" = { fg = "background", bg = "gray-medium" }
+"ui.cursor.match" = { fg = "gray-dark", bg = "background-match" }
+"ui.cursorline.primary" = { bg = "background-line" }
+"ui.highlight" = { bg = "background-highlight" }
+"ui.statusline" = { fg = "gray-main", bg = "background-statusline" }
+"ui.statusline.inactive" = { fg = "gray-dim", bg = "background-statusline-inactive" }
+"ui.statusline.normal" = { fg = "accent-green", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "gray-medium", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "accent-purple", modifiers = ["bold"] }
+"ui.popup" = { fg = "gray-main", bg = "background-popup" }
+"ui.window" = "gray-dim"
+"ui.help" = { fg = "gray-main", bg = "background-popup" }
+"ui.gutter" = { bg = "background-subtle" }
+"ui.menu" = { fg = "gray-main", bg = "background-popup" }
+"ui.menu.selected" = { fg = "gray-dark", bg = "background-active", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "gray-dim", bg = "background-highlight" }
+"ui.virtual" = "gray-faint"
+"ui.virtual.ruler" = { bg = "background-subtle" }
+"ui.virtual.inlay-hint" = { fg = "gray-medium", modifiers = ["italic"] }
+"ui.virtual.jump-label" = { fg = "accent-orange", modifiers = ["bold"] }
+"ui.virtual.indent-guide" = "gray-faint"
+"ui.virtual.whitespace" = "gray-faint"
+"ui.bufferline" = { fg = "gray-dim", bg = "background-subtle" }
+"ui.bufferline.active" = { fg = "gray-main", bg = "background", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "accent-red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "accent-orange", style = "curl" } }
+"diagnostic.info" = { underline = { color = "accent-green", style = "curl" } }
+"diagnostic.hint" = { fg = "gray-medium", modifiers = ["italic"] }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"error" = "accent-red"
+"warning" = "accent-orange"
+"info" = "accent-green"
+"hint" = "gray-main"
+
+"diff.plus" = { fg = "gray-medium", bg = "background-diff-add" }
+"diff.plus.gutter" = "gray-medium"
+"diff.minus" = { fg = "accent-red", bg = "background-diff-remove" }
+"diff.minus.gutter" = "accent-red"
+"diff.delta" = { fg = "accent-orange", bg = "background-diff-change" }
+"diff.delta.gutter" = "accent-orange"
+
+[palette]
+background = "#fafafa"
+background-subtle = "#f0f0f0"
+background-popup = "#e8e8e8"
+background-statusline = "#c8c8c8"
+background-statusline-inactive = "#e8e8e8"
+background-line = "#e0e0e0"
+background-highlight = "#ececec"
+background-selection = "#b3d7ff"
+background-active = "#70a3d9"
+background-match = "#d0d0d0"
+gray-bright = "#1a1a1a"
+gray-faint = "#d0d0d0"
+gray-dim = "#b0b0b0"
+gray-main = "#888888"
+gray-medium = "#555555"
+gray-dark = "#2a2a2a"
+background-diff-add = "#e6f3e6"
+background-diff-remove = "#f3e6e6"
+background-diff-change = "#f3f0e6"
+accent-red = "#cc3333"
+accent-green = "#447744"
+accent-blue = "#336699"
+accent-orange = "#cc7733"
+accent-purple = "#9966aa"
+white = "#fafafa"
+gray = "#888888"
+darkgray = "#e0e0e0"
+black = "#333333"
+cursor = "#666666"
+selected = "#e0e0e0"
+red = "#cc3333"
+green = "#558855"
+orange = "#cc7733"
