@@ -1,6 +1,3 @@
-# A simple theme with no syntax highlighting aside from comments and strings.
-# Enhanced with typographic variations (bold/italic) for better code hierarchy.
-
 "type" = { fg = "gray-bright", modifiers = ["bold"] }
 "type.builtin" = { fg = "gray-bright", modifiers = ["bold"] }
 "constructor" = { fg = "gray-bright", modifiers = ["bold"] }
@@ -12,7 +9,7 @@
 "string" = "accent-blue"
 "string.regexp" = "accent-blue"
 "string.special" = "accent-blue"
-"comment" = { fg = "accent-green", modifiers = ["italic"] }
+"comment" = { fg = "accent-green" }
 "variable" = "gray-light"
 "variable.parameter" = { fg = "gray-light", modifiers = ["italic"] }
 "variable.builtin" = { fg = "gray-light", modifiers = ["italic"] }
