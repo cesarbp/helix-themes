@@ -1,52 +1,53 @@
 # A simple theme with no syntax highlighting aside from comments and strings.
+# Enhanced with typographic variations (bold/italic) for better code hierarchy.
 
-"type" = "gray-light"
-"type.builtin" = "gray-light"
-"constructor" = "gray-light"
+"type" = { fg = "gray-bright", modifiers = ["bold"] }
+"type.builtin" = { fg = "gray-bright", modifiers = ["bold"] }
+"constructor" = { fg = "gray-bright", modifiers = ["bold"] }
 "constant" = "gray-light"
-"constant.builtin" = "gray-light"
-"constant.builtin.boolean" = "gray-light"
+"constant.builtin" = { fg = "gray-light", modifiers = ["italic"] }
+"constant.builtin.boolean" = { fg = "gray-light", modifiers = ["italic"] }
 "constant.character.escape" = "gray-light"
 "constant.numeric" = "gray-light"
 "string" = "accent-blue"
 "string.regexp" = "accent-blue"
 "string.special" = "accent-blue"
-"comment" = "accent-green"
+"comment" = { fg = "accent-green", modifiers = ["italic"] }
 "variable" = "gray-light"
-"variable.parameter" = "gray-light"
-"variable.builtin" = "gray-light"
+"variable.parameter" = { fg = "gray-light", modifiers = ["italic"] }
+"variable.builtin" = { fg = "gray-light", modifiers = ["italic"] }
 "variable.other.member" = "gray-light"
 "label" = "gray-light"
-"keyword" = "gray-light"
-"keyword.directive" = "gray-light"
-"keyword.storage.type" = "gray-light"
-"keyword.control" = "gray-light"
+"keyword" = { fg = "gray-light", modifiers = ["bold"] }
+"keyword.directive" = { fg = "gray-light", modifiers = ["bold"] }
+"keyword.storage.type" = { fg = "gray-light", modifiers = ["bold"] }
+"keyword.control" = { fg = "gray-light", modifiers = ["bold", "italic"] }
 "keyword.operator" = "gray-light"
-"function" = "gray-light"
-"function.builtin" = "gray-light"
-"function.method" = "gray-light"
-"function.macro" = "gray-light"
+"function" = { fg = "gray-bright", modifiers = ["bold"] }
+"function.builtin" = { fg = "gray-bright", modifiers = ["bold"] }
+"function.method" = { fg = "gray-bright", modifiers = ["bold"] }
+"function.macro" = { fg = "gray-light", modifiers = ["bold"] }
 "punctuation" = "gray-light"
 "punctuation.delimiter" = "gray-light"
 "punctuation.bracket" = "gray-light"
-"tag" = "gray-light"
-"attribute" = "gray-light"
-"namespace" = "gray-light"
+"tag" = { fg = "gray-light", modifiers = ["bold"] }
+"attribute" = { fg = "gray-light", modifiers = ["italic"] }
+"namespace" = { fg = "gray-light", modifiers = ["italic"] }
 "special" = "accent-orange"
 "operator" = "gray-light"
 
-"markup.heading.marker" = "gray-light"
-"markup.heading.1" = "gray-light"
-"markup.heading.2" = "gray-light"
-"markup.heading.3" = "gray-light"
-"markup.heading.4" = "gray-light"
-"markup.heading.5" = "gray-light"
-"markup.heading.6" = "gray-light"
+"markup.heading.marker" = { fg = "gray-light", modifiers = ["bold"] }
+"markup.heading.1" = { fg = "gray-bright", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "gray-bright", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "gray-light", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "gray-light", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "gray-light", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "gray-light", modifiers = ["bold"] }
 "markup.list" = "gray-light"
-"markup.bold" = "gray-light"
-"markup.italic" = "gray-light"
-"markup.strikethrough" = "gray-light"
-"markup.link.url" = "gray-light"
+"markup.bold" = { fg = "gray-light", modifiers = ["bold"] }
+"markup.italic" = { fg = "gray-light", modifiers = ["italic"] }
+"markup.strikethrough" = { fg = "gray-light", modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "gray-light", modifiers = ["underlined"] }
 "markup.link.text" = "gray-light"
 "markup.raw.block" = "gray-light"
 "markup.raw.inline" = "gray-light"
@@ -58,8 +59,8 @@
 "ui.text.directory" = { fg = "accent-green", modifiers = ["bold"] }
 "ui.linenr" = { fg = "gray-dim", bg = "background-subtle" }
 "ui.linenr.selected" = { fg = "gray-medium", bg = "background-line" }
-"ui.selection" = { fg = "gray-bright", bg = "background-selection" }
-"ui.selection.primary" = { fg = "gray-dark", bg = "background-active" }
+"ui.selection" = { fg = "gray-dark", bg = "background-active" }
+"ui.selection.primary" = { fg = "gray-bright", bg = "background-selection" }
 "ui.cursor" = { fg = "background", bg = "gray-medium" }
 "ui.cursor.primary" = { fg = "background", bg = "gray-light" }
 "ui.cursor.match" = { fg = "gray-bright", bg = "background-match" }
